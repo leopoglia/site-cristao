@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+body {
+    background-color: #20212400;
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    max-width: 100%;
+    max-height: 28px;
+}
+
+#imagem-menu{
+    width: 100%;
+    height: 28px;
+}
+
+.menu-principal{
+    width: 100%;
+    height: 120px;
+    padding: 20px 0;
+    background-color: #00255e;
+    display: flex;
+
+}
+
+#logo{
+    padding-left: 128px;
+}
+
+.input-div{
+    width: 760px;
+    padding-left: 53px;
+    padding-top: 14.5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+#input{
+    color: black;
+    width: 60%;
+    height: 40px;
+    background-color: #fff;
+    border: transparent;
+    border-radius: 5px;
+    outline: 0;
+}
+
+#input:hover{
+    border:none;
+    outline: 0;
+}
+
+#input::placeholder {
+    color: rgb(153, 153, 153);
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.lupa{
+    margin-top: 23px;
+    margin-left: -330px;
+}
+
+#ajuda{
+    font-family: "Source Sans Pro",sans-serif;
+    color: #fff;
+    padding-top: 27px;
+    padding-left: 20px;
+}
+
+.engine{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.conta{
+    line-height: 15px;
+    font-size: 15px;
+    margin-top: 22px;
+}
+
+.conta a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.acessar{
+    color: white;
+    text-decoration: none;
+}
+
+.minha{
+    color: #ff6f00;
+    text-decoration: none;
+}
+
+#menu-baixo{
+    max-width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    background-color: #ff6f00;
+    display: flex;
+    color: rgb(0,37,94);
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+    align-items: center;
+    
+}
+
+.espaco{
+    width: 140px;
+}
+
+.livros{
+    width: 100px;
+    position: relative;
+    display: table;
+    content: 0;
+    text-align: center;
+}
+
+.livros:hover{
+    padding: 15px 15px 15px 15px;
+    color: #fff;
+    background-color:  rgba(255, 255, 255, 0.267);
+    border-radius:5px;
+}
+
+.biblibas{
+    width: 100px;
+    text-align: center;
+}
+
+.biblibas:hover{
+    color: #fff;
+    padding: 15px 15px 15px 15px;
+    background-color:  rgba(255, 255, 255, 0.267);
+    border-radius:5px;
+}
+
+.diversos{
+    width: 100px;
+    text-align: center;
+}
+
+.diversos:hover{
+    position: relative;
+    color: #fff;
+    padding: 15px 15px 15px 15px;
+    background-color:  rgba(255, 255, 255, 0.267);
+    border-radius:5px;
+}
+
+.autores{
+    width: 100px;
+    text-align: center;
+}
+.autores:hover{
+    position: relative;
+    color: #fff;
+    padding: 15px 15px 15px 15px;
+    background-color:  rgba(255, 255, 255, 0.267);
+    border-radius:5px;
+}
+
+.editores{
+    width: 100px;
+    text-align: center;
+}
+
+.editores:hover{
+    color: #fff;
+    width: 100px;
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    background-color:  rgba(255, 255, 255, 0.267);
+    border-radius:5px;
+}
+
+.feirao{
+    width: 150px;
+    text-align: center;
+}
+
+.feirao:hover{
+    color: #fff;
+    width: 150px;
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    background-color:  rgba(255, 255, 255, 0.267);
+    border-radius:5px;
+}
+
+.classicos{
+    width: 170px;
+    text-align: center;
+}
+
+.classicos:hover{
+    width: 170px;
+    position: relative;
+    color: #fff;
+    padding: 15px 15px 15px 15px;
+    background-color:  rgba(255, 255, 255, 0.267);
+    border-radius:5px;
+}
+
+.frete-gratis{
+    position: relative;
+    width: 260px;
+    text-align: center;
+}
+
+.frete-gratis:hover{
+    width: 260px;
+    position: relative;
+    color: #fff;
+    padding: 15px 15px 15px 15px;
+    background-color:  rgba(255, 255, 255, 0.267);
+    border-radius:5px;
+}
+
+.kits{
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 19px;
+    width:70px;
+    height:45px;
+    background-color:  rgb(255, 255, 255);
+    border-radius:5px;
+}
+
+#texto-kits{
+    padding: 10px;
+    color: #ff6f00;
+}
+
+#imagem{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.slides {
+max-width: 1170px;
+margin: auto;
+}
+
+.dot {
+cursor: pointer;
+height: 12px;
+width: 12px;
+margin: 0 3px;
+background-color: #bbb;
+border: solid  2px #ff6f00;
+background-color: transparent;
+border-radius: 50%;
+display: inline-block;
+}
+  
+.active, .dot:hover {
+background-color: #ff6f00;
+}
+
+.tracos{
+    margin-top: -45px;
+    padding: 0 0 50px 0;
+    position:relative
+}
+
+.livros-lado{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.espacion1{
+    width: 125px;
+    height: 100px;
+}
+
+.espacion{
+    width: 20px;
+    height: 60px;
+}
+
+.livross{
+    position: relative;
+    height: 320px;
+    width: 218px;
+}
+
+.destaque{
+    padding: 20px 150px;
+    display: flex;
+}
+
+h2{
+    position: relative;
+    float: left;
+    clear: both;
+    width: auto;
+    margin: 0 15px 0 0;
+    padding: 10px 30px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 22px;
+    overflow: auto;
+    color: #00255e;
+    box-shadow: inset 0 0 0 2px #ebf1f7;
+}
+
+#tracinho{
+    position: relative;
+    background: #ff6f00;
+    width: 30px;
+    height: 6px;
+    margin-top: 25px;
+    margin-left: -30px;
+}
